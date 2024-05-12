@@ -10,7 +10,7 @@ class EngLabStressTest
   extends Simulation {
 
   val httpProtocol = http
-    .baseUrl("http://localhost:9999")
+    .baseUrl("http://localhost:8080")
     .userAgentHeader("Chaos Agent - Eng. Labs 3")
 
   val createAndLookUpWarriors = scenario("Creation and Lookup for Warriors")
